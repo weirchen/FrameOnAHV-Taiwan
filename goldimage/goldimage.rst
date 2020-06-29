@@ -34,7 +34,7 @@ Deploying a VM
    - Select **+ Add New Disk**
        - **Type** - DISK
        - **Operation** - Clone from Image Service
-       - **Image** - Win10v1903.qcow2 or Windows10-1709.qcow2
+       - **Image** - Win10-1909.qcow2 (TC) or Win10-1709.qcow2 (English)
        - Select **Add**
 
    - Select **Add New NIC**
@@ -54,7 +54,7 @@ Before starting to build your **Windows 10** image it is important the ensure th
 
 #. Open the VM console or connect via RDP.
 
-   - **User Name** - Nutanix
+   - **User Name** - nutanix
    - **Password** - nutanix/4u
 
 #. Open **Start > Settings > Updates & Security > Windows Update** and click **Pause Updates for 7 Days**.
@@ -138,7 +138,7 @@ Additionally, during the brokering workflow, the Frame agent works in conjunctio
 #. Under **Disks > CD-ROM**, select :fa:`pencil` and fill out the following fields:
 
    - **Operation** - Clone from Image Service
-   - **Image** - FrameGuestAgentInstaller_1.0.2.7.iso
+   - **Image** - FrameGuestAgentInstaller_1027.iso
 
 #. Click **Update > Save**.
 
