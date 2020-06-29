@@ -73,6 +73,9 @@ Each student has a Organization and Organization follow a standard naming conven
 - **Organization Name** - student*nn*
 - **Organization URL** -  http://frame.nutanix.com/zerone46com46tw/student *nn*
 
+#. Student will receive Join Frame invitation mail, click **Click Here to Get Started** in the invitation mail. This will allow you to provide your own infrastructure to host desktops in Organization.
+
+   .. figure:: images/0d.png
 
 #. In a browser, log into  http://frame.nutanix.com/zerone46com46tw/student *nn* with your Frame credentials.
 
@@ -153,7 +156,7 @@ The CCA is distributed as a bootable ISO image, not a disk image.
 
    - Beside **Disks > CD-ROM**, select :fa:`pencil`
       - **Operation** - Clone from Image Service
-      - **Image** - FrameCCA-2.1.6.iso or FrameCCA-3.0.0-RC34.iso
+      - **Image** - FrameCCA-216.iso or FrameCCA-3.0.0-RC34.iso
       - Select **Update**
 
    - Select **+ Add New Disk**
