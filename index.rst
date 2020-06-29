@@ -100,8 +100,8 @@ Throughout the Workshop there are multiple instances where you will need to acce
      - Nutanix Cluster Virtual IP
    * - 192.168.2.222
      - **PC** VM IP, Prism Central
-   * - 192.168.2.xxx
-     - **DC** VM IP, zotdemo Domain Controller
+   * - 192.168.2.234
+     - **DC** VM IP, ntnxlab Domain Controller
 
 This cluster is configured with one VLANs which can be used for VMs:
 
@@ -116,7 +116,7 @@ This cluster is configured with one VLANs which can be used for VMs:
   * - Frame-IPAM
     - 192.168.2.0/24
     - 0
-    - 192.168.2.60-192.168.2.160
+    - 192.168.2.60-192.168.2.254
   
 
 
@@ -147,7 +147,7 @@ Credentials
      - nutanix
      - *1qaz@WSX3edc*
 
-This cluster has a dedicated domain controller VM, **DC**, responsible for providing AD services for the **zotdemo.local** domain. The domain is populated with the following Users and Groups:
+This cluster has a dedicated domain controller VM, **DC**, responsible for providing AD services for the **ntnxlab.local** domain. The domain is populated with the following Users and Groups:
 
 .. list-table::
    :widths: 25 35 40
@@ -183,6 +183,6 @@ This cluster has a dedicated domain controller VM, **DC**, responsible for provi
 Nutanix Version Info
 ++++++++++++++++++++
 
-- **AHV Version** - AHV 20170830.337
-- **AOS Version** - 5.15.1
-- **PC Version** - 5.15.1
+- **AHV Version** - AHV 20170830.396
+- **AOS Version** - 5.10.10.1
+- **PC Version** - 5.17.0.3
