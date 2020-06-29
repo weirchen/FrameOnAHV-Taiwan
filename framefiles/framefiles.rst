@@ -111,7 +111,7 @@ For the purposes of saving time and resources, a Nutanix Files instance has alre
 
        To learn more about Files capabilities, including Quotas, Antivirus integration, monitoring, and more, see the `Nutanix Files Guide <https://portal.nutanix.com/#/page/docs/details?targetId=Files-v3_6:Files-v3_6>`_ on the Nutanix Portal.
 
-#. From your Frame desktop, validate you can access ``\\BootcampFS.ntnxlab.local\Initials-DepartmentShare\`` from File Explorer. When prompted for credentials, authenticate using the following:
+#. From your Frame desktop, validate you can access ``\\192.168.2.6\Initials-DepartmentShare\`` from File Explorer. When prompted for credentials, authenticate using the following:
 
    - **User Name** - ntnxlab.local\\devuser01
    - **Password** - nutanix/4u
